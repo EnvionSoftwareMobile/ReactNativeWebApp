@@ -21,6 +21,7 @@ const instructions = Platform.select({
 interface Props {}
 export default class App extends Component<Props> {
   render() {
+    console.log("test");
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>Welcome to React Native!</Text>
